@@ -33,7 +33,7 @@ A simple, menu-driven Library Management System developed using Python as a coll
 4. Run the program:
 
 ```bash
-python library_management_system.py
+python python librarymanagementsystem.py
 ```
 
 ## Note
