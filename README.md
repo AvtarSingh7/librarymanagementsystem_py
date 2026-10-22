@@ -1,45 +1,51 @@
-# librarymanagementsystem_py
-A beginner-friendly Python Library Management System to view, issue, return, add, and remove books using a simple menu-driven interface.
-# Library Management System (Python)
+# Library Management System
 
-A simple, menu-driven Library Management System developed using Python as a college mini project.
+A Python-based Library Management System designed to manage basic library operations through a menu-driven command-line interface.
 
 ## Features
 
-- View available books
-- Issue a book
-- Return a book
-- Add new books
-- Remove books
-- Exit the program
+- **View Books:** Display the available books in the library.
+- **Issue Books:** Issue a book from the available collection.
+- **Return Books:** Add returned books back to the collection.
+- **Add Books:** Add new books to the library.
+- **Remove Books:** Remove books from the collection.
+- **Interactive Menu:** Navigate through library operations using numbered options.
 
 ## Technologies Used
 
 - Python 3
 
-## Python Concepts Used
+## Concepts Implemented
 
-- Lists
-- `while` loops
-- `if-elif-else` statements
-- User input using `input()`
-- List methods: `append()` and `remove()`
+- Lists and list operations
+- Loops and conditional statements
+- User input and output
+- List methods such as `append()` and `remove()`
 
 ## How to Run
 
 1. Install Python 3.
-2. Download or clone this repository.
-3. Open a terminal in the project folder.
-4. Run the program:
+2. Clone or download this repository.
+3. Open a terminal in the project directory.
+4. Run the following command:
 
 ```bash
-python python librarymanagementsystem.py
+python LibraryManagementSystem.py
 ```
 
-## Note
+## Limitations
 
-This is a beginner-level project. Book records are stored in memory and reset when the program closes.
+- Book records are stored in memory and reset when the program terminates.
+- The system does not maintain borrower details or permanent transaction records.
+- Book returns are not validated against previous issue transactions.
+
+## Future Improvements
+
+- Persistent storage using files or a database.
+- Borrower registration and transaction tracking.
+- Improved validation and book availability management.
+- A graphical user interface.
 
 ## Purpose
 
-This project demonstrates basic Python programming concepts through a practical library management application.
+This project demonstrates the application of Python programming concepts to a practical library management scenario.
